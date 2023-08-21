@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:500px;
+
+        }
+        form{
+            width:20%;
+    
+            border: 1px solidn black;
+            box-shadow: 1px 1px 2px gray;
+            padding:30px;
+                
+        }
+        h3{
+            text-align: center;
+        }
+        .formgroup div{
+            text-align: center;
+            width:100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        label{
+            font-weight: bold;
+        }
+        .formgroup button{
+            margin-top: 20px;
+            align-items: center;
+            width:100%;
+        background-color: black;
+        color: white;
+
+
+        }
+        input{
+            width:100%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form method="get">
+        <h3><span class="bi bi-person-fill"></span>Login Form</h3>
+        <div class="formgroup">
+            <label for="username">Username</label>
+            <div>
+                <input type="text" name="username">
+            </div>
+
+        </div>
+        <div class="formgroup">
+            <label for="password">password</label>
+            <div>
+                <input type="password" name="password">
+            </div>
+
+        </div>
+      <div class="formgroup">
+        <button>login</button>
+      </div>
+    </form>
+    
+</body>
+</html>
